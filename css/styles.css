@@ -1,26 +1,5 @@
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/Roboto-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/Roboto-Bold.ttf);
-}
-
-@font-face {
-  font-family: 'Roboto-Light';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../assets/fonts/Roboto-Light.ttf);
-}
-
 body{
-  font-family: "Roboto", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.8;
 }
 
@@ -78,11 +57,13 @@ html,body {
 }
 
 .header--bg{
-  background: url("../assets/images/header-background.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
+  background: url("https://spyrestudios.com/wp-content/uploads/wallpaperflare.com_wallpaper-5.jpg");
 }
+
+
 
 .header--bg:after{
   content: '';
@@ -91,7 +72,8 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgba(30,170,180,0.9) 0%, rgba(42,183,202,0.9) 33%, rgba(0,212,255,0.9) 100%);
+  background: rgb(21,20,27);
+  background: radial-gradient(circle, rgba(21,20,27,1) 0%, rgba(21,20,27,0.95) 33%, rgba(21,20,27,0.90) 100%);
   z-index: -1;
 }
 
@@ -131,7 +113,7 @@ html,body {
   display: inline-block;
   font-size: 15px;
   color: #7f56fd;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -163,7 +145,7 @@ html,body {
 
 .navbar-brand{
   font-size: 25px;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   padding-left: 45px;
   background-position: left center;
@@ -268,7 +250,7 @@ html,body {
 .about__bio strong{
   font-size: 15px;
   color: #2c4055;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .gutters-80.row{
@@ -297,8 +279,8 @@ html,body {
 }
 
 .button--colorful{
- background-color: #2ab7ca;
- font-family: Roboto-Light;
+ background-color: #15141b;
+  font-family: 'Ubuntu', sans-serif;
  color: #fff;
 }
 
@@ -325,7 +307,7 @@ html,body {
 }
 
 .skill--bg{
-  background: url("../assets/images/skill-background.png") no-repeat;
+  background: url("https://spyrestudios.com/wp-content/uploads/wallpaperflare.com_wallpaper-5.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -338,7 +320,8 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgba(30,170,180,0.9) 0%, rgba(42,183,202,0.9) 33%, rgba(0,212,255,0.9) 100%);
+  background: rgb(21,20,27);
+  background: radial-gradient(circle, rgba(21,20,27,1) 0%, rgba(21,20,27,0.95) 33%, rgba(21,20,27,0.90) 100%);
   z-index: -1;
 }
 
@@ -366,12 +349,15 @@ html,body {
 
 .skill__single-part__title{
   font-size: 15px;
-  color: #273f59;
+  color: #000;
+  text-transform: uppercase;
   margin-bottom: 30px;
   margin-top: 5px;
   font-weight: bold;
 }
-
+.skill-sec li {
+  line-height: 1.8;
+}
 .gutters-60.row{
   margin-right: -30px;
   margin-left: -30px;
@@ -498,7 +484,7 @@ html,body {
 
 .portfolio__single-section h4{
  font-size: 20px;
- font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
  font-weight: bold;
  color: #fff;
 }
@@ -506,7 +492,7 @@ html,body {
 .portfolio__single-section p{
  font-weight: 15px;
  color: #fff;
- font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
  font-weight: bold;
 }
 
@@ -582,14 +568,14 @@ html,body {
 
 .slider .carousel-content h4{
   font-size: 25px;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   color: #fff;
   font-weight: bold;
 }
 
 .slider .carousel-content h6{
   font-size: 15px;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   margin: 0;
   color: #ebeaea;
 }
@@ -602,7 +588,7 @@ html,body {
   font-size: 15px;
   color: #ebeaea;
   line-height: 1.8;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .slider .item{
@@ -888,7 +874,7 @@ html,body {
 .blog__single__date{
   font-size: 15px;
   color: #273f59;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   padding-top: 30px;
   display: inline-block;
@@ -924,13 +910,13 @@ html,body {
 }
 
 .footer--bg{
-  background-color: #27353B;
+  background-color: rgb(21,20,27);
 }
 
 .footer__title{
   font-size: 30px;
   color: #fff;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-bottom: 40px;
 }
@@ -966,7 +952,7 @@ html,body {
 .footer__paragraph{
   font-size: 14px;
   color: #fff;
-  font-family: Roboto-Light;
+  font-family: 'Ubuntu', sans-serif;
 }
 .social-icon i {
   font-size: 30px;
